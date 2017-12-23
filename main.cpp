@@ -101,10 +101,10 @@ void getBoardStatus(){
 	for(int i = 0; i < 8; i++){
 		for(int j = 0; j < 8; j++){
 			if (B[i][j].c == 'n'){
-				cout << "_" << "\t ";
+				cout << "_" << " ";
 			}
 			else {
-				cout << B[i][j].c << "\t ";
+				cout << B[i][j].c << " ";
 			} 
 		}
 		cout << endl;
